@@ -1,0 +1,108 @@
+{
+  "zone": "34.500_-4.375",
+  "precedente": "feve",
+  "superviseur_grace": {
+    "actif": true,
+    "niveau": "alerte",
+    "tendance_cm_an": -2.48,
+    "baisse_totale_cm": -11.4,
+    "significative": true,
+    "coef_poids_eau": 0.4,
+    "r05": "exclusion",
+    "message": "Stockage d'eau regional en baisse nette : la plateforme favorise les cultures sobres en eau et evite l'enchainement de cultures gourmandes."
+  },
+  "propositions": [
+    {
+      "proposition": 1,
+      "score": 0.825,
+      "sol_nu_total_mois": 12,
+      "cultures": [
+        {
+          "culture": "colza",
+          "famille": "Brassicaceae",
+          "semis": "octobre",
+          "recolte": "avril",
+          "sol_nu_mois": 6,
+          "score": 0.84,
+          "detail": {
+            "eau": 0.66,
+            "sol": 1.0,
+            "climat": 1.0,
+            "rendement": 0.96
+          },
+          "alertes": [
+            "sol nu : 6 mois entre la recolte precedente et le semis (information)"
+          ]
+        },
+        {
+          "culture": "pois_fourrager",
+          "famille": "Fabaceae",
+          "semis": "octobre",
+          "recolte": "mars",
+          "sol_nu_mois": 6,
+          "score": 0.86,
+          "detail": {
+            "eau": 0.75,
+            "sol": 1.0,
+            "climat": 1.0,
+            "rendement": null
+          },
+          "alertes": [
+            "sol nu : 6 mois entre la recolte precedente et le semis (information)",
+            "donnee non disponible : rendement (R12)"
+          ]
+        }
+      ],
+      "regles": [
+        "R06 (+0.10) au moins une culture a besoin en eau faible ou moyen"
+      ],
+      "statut": "favorable sous réserve - à valider (R13)"
+    },
+    {
+      "proposition": 2,
+      "score": 0.795,
+      "sol_nu_total_mois": 12,
+      "cultures": [
+        {
+          "culture": "cardon",
+          "famille": "Asteraceae",
+          "semis": "septembre",
+          "recolte": "mars",
+          "sol_nu_mois": 5,
+          "score": 0.8,
+          "detail": {
+            "eau": 0.62,
+            "sol": 1.0,
+            "climat": 1.0,
+            "rendement": null
+          },
+          "alertes": [
+            "sol nu : 5 mois entre la recolte precedente et le semis (information)",
+            "donnee non disponible : rendement (R12)"
+          ]
+        },
+        {
+          "culture": "petit_pois",
+          "famille": "Fabaceae",
+          "semis": "octobre",
+          "recolte": "janvier",
+          "sol_nu_mois": 7,
+          "score": 0.84,
+          "detail": {
+            "eau": 0.66,
+            "sol": 1.0,
+            "climat": 1.0,
+            "rendement": 0.95
+          },
+          "alertes": [
+            "sol nu : 7 mois entre la recolte precedente et le semis (information)"
+          ]
+        }
+      ],
+      "regles": [
+        "R06 (+0.10) au moins une culture a besoin en eau faible ou moyen"
+      ],
+      "statut": "favorable sous réserve - à valider (R13)"
+    }
+  ]
+}

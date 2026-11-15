@@ -1,0 +1,109 @@
+{
+  "zone": "33.500_-3.750",
+  "precedente": "tomate",
+  "superviseur_grace": {
+    "actif": true,
+    "niveau": "alerte",
+    "tendance_cm_an": -2.28,
+    "baisse_totale_cm": -11.0,
+    "significative": true,
+    "coef_poids_eau": 0.4,
+    "r05": "exclusion",
+    "message": "Stockage d'eau regional en baisse nette : la plateforme favorise les cultures sobres en eau et evite l'enchainement de cultures gourmandes."
+  },
+  "propositions": [
+    {
+      "proposition": 1,
+      "score": 0.641,
+      "sol_nu_total_mois": 13,
+      "cultures": [
+        {
+          "culture": "petit_pois",
+          "famille": "Fabaceae",
+          "semis": "octobre",
+          "recolte": "janvier",
+          "sol_nu_mois": 4,
+          "score": 0.62,
+          "detail": {
+            "eau": 0.32,
+            "sol": 0.79,
+            "climat": 0.81,
+            "rendement": 0.95
+          },
+          "alertes": [
+            "sol nu : 4 mois entre la recolte precedente et le semis (information)"
+          ]
+        },
+        {
+          "culture": "colza",
+          "famille": "Brassicaceae",
+          "semis": "octobre",
+          "recolte": "avril",
+          "sol_nu_mois": 9,
+          "score": 0.67,
+          "detail": {
+            "eau": 0.32,
+            "sol": 1.0,
+            "climat": 0.81,
+            "rendement": 0.96
+          },
+          "alertes": [
+            "sol nu : 9 mois entre la recolte precedente et le semis (information)"
+          ]
+        }
+      ],
+      "regles": [
+        "R06 (+0.10) au moins une culture a besoin en eau faible ou moyen"
+      ],
+      "statut": "favorable sous réserve - à valider (R13)"
+    },
+    {
+      "proposition": 2,
+      "score": 0.606,
+      "sol_nu_total_mois": 11,
+      "cultures": [
+        {
+          "culture": "medicago_annuelles",
+          "famille": "Fabaceae",
+          "semis": "octobre",
+          "recolte": "avril",
+          "sol_nu_mois": 4,
+          "score": 0.59,
+          "detail": {
+            "eau": 0.32,
+            "sol": 0.91,
+            "climat": 0.89,
+            "rendement": null
+          },
+          "alertes": [
+            "sol nu : 4 mois entre la recolte precedente et le semis (information)",
+            "donnee non disponible : rendement (R12)"
+          ]
+        },
+        {
+          "culture": "orge",
+          "famille": "Poaceae",
+          "semis": "novembre",
+          "recolte": "avril",
+          "sol_nu_mois": 7,
+          "score": 0.58,
+          "detail": {
+            "eau": 0.53,
+            "sol": 0.73,
+            "climat": 0.97,
+            "rendement": 0.2
+          },
+          "alertes": [
+            "sol nu : 7 mois entre la recolte precedente et le semis (information)",
+            "texture du sol peu adaptee (R07)"
+          ]
+        }
+      ],
+      "regles": [
+        "R03 (+0.20) legumineuse (medicago_annuelles) avant cereale (orge)",
+        "R06 (+0.10) au moins une culture a besoin en eau faible ou moyen"
+      ],
+      "statut": "favorable sous réserve - à valider (R13)"
+    }
+  ]
+}

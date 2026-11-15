@@ -1,0 +1,57 @@
+﻿crop_id,crop_name,botanical_family,crop_type,water_need,planting_period,soil_type,sun_exposure,altitude_min_m,altitude_max_m,soil_ph_min,soil_ph_max,temperature_min_c,temperature_max_c,crop_cycle_days
+C001,ail,Amaryllidaceae,légume,élevé,octobre; novembre; décembre,sablo_limoneux,plein_soleil,0,2200,6.0,6.8,12,24,270
+C002,oignon,Amaryllidaceae,légume,élevé,octobre; novembre,sablo_limoneux,plein_soleil,0,1300,6.0,6.8,10,25,125
+C003,pomme_de_terre,Solanaceae,tubercule,élevé,janvier; février; août; septembre,sablo_limoneux; limono_argileux,plein_soleil,300,1200,5.5,6.5,6,25,105
+C004,mais,Poaceae,céréale,élevé,mars; avril; mai; juin,argilo_limoneux; sablo_limoneux,plein_soleil,0,1800,5.5,7.5,10,35,100
+C005,orge,Poaceae,céréale,faible,novembre; décembre,limono_argileux,plein_soleil,300,1200,6.0,8.5,-4,35,145
+C006,haricot_vert,Fabaceae,légume,moyen,mars; avril; août; septembre,sablo_limoneux; limono_argileux,plein_soleil,200,800,5.5,6.8,10,30,70
+C007,haricot_plat_a_rames,Fabaceae,légume,élevé,mars; avril; mai; août; septembre,sablo_limoneux; limoneux,plein_soleil,200,800,6.0,7.5,10,30,105
+C008,haricot_sec,Fabaceae,légumineuse,moyen,mars; avril; juillet,sablo_limoneux; argilo_limoneux,plein_soleil,200,800,6.0,7.5,10,28,103
+C009,petit_pois,Fabaceae,légumineuse,moyen,octobre; novembre; décembre; janvier; février,sablo_limoneux; argilo_limoneux,plein_soleil,200,800,5.8,7.5,4,25,90
+C010,lentille,Fabaceae,légumineuse,moyen,novembre; décembre,argilo_sableux; limono_argileux; sableux,plein_soleil,300,1200,6.0,8.5,-6,32,145
+C011,feve,Fabaceae,légumineuse,moyen,novembre; décembre,limono_argileux; argilo_limoneux,plein_soleil,200,800,6.0,7.5,5,25,150
+C012,soja,Fabaceae,oléagineux,élevé,avril; mai,limoneux; argilo_limoneux,plein_soleil,0,600,6.0,7.5,10,35,125
+C013,colza,Brassicaceae,oléagineux,moyen,octobre; novembre,argilo_limoneux; argileux; argilo_sableux,plein_soleil,200,800,6.0,8.5,-4,30,168
+C014,luzerne,Fabaceae,fourrage,élevé,octobre; novembre; mars; avril,limono_argileux,plein_soleil,300,1500,6.5,8.2,-5,35,1460
+C015,bersim,Fabaceae,fourrage,élevé,septembre; octobre; novembre,argilo_limoneux,plein_soleil,0,800,6.5,8.2,0,35,210
+C016,feverole,Fabaceae,légumineuse,moyen,novembre; décembre,argilo_limoneux,plein_soleil,200,1000,6.0,7.8,-5,25,165
+C017,carthame,Asteraceae,oléagineux,moyen,février; mars; novembre; décembre,argilo_limoneux; sablo_limoneux,plein_soleil,0,1000,5.5,8.2,-8,38,225
+C018,medicago_annuelles,Fabaceae,fourrage,moyen,octobre; novembre,limoneux; argilo_limoneux,plein_soleil,200,1000,6.5,8.5,0,35,180
+C019,pois_fourrager,Fabaceae,fourrage,moyen,octobre; novembre,limoneux; argilo_limoneux,plein_soleil,0,1200,6.5,7.8,-4,30,125
+C020,tournesol,Asteraceae,oléagineux,moyen,février; mars; avril,argilo_limoneux; limono_argileux,plein_soleil,0,700,6.0,7.8,8,32,125
+C021,betterave_potagere,Amaranthaceae,légume,élevé,septembre; octobre; novembre; février; mars; avril,sablo_limoneux; limono_argileux,plein_soleil,200,800,6.0,7.5,8,28,110
+C022,ble_tendre,Poaceae,céréale,moyen,octobre; novembre; décembre,limoneux; argilo_limoneux,plein_soleil,0,1500,6.0,7.5,3,32,210
+C023,ble_dur,Poaceae,céréale,moyen,novembre; décembre,argilo_limoneux; limoneux,plein_soleil,0,1200,6.5,8.0,4,35,195
+C024,riz,Poaceae,céréale,élevé,avril; mai; juin,argileux; limono_argileux,plein_soleil,0,1000,5.5,7.0,15,38,135
+C025,avoine,Poaceae,céréale,moyen,mars; avril; mai; septembre; octobre; novembre,limoneux,plein_soleil,0,1600,5.0,7.0,2,30,170
+C026,sorgho,Poaceae,céréale,faible,avril; mai; juin,sableux; limoneux; argileux,plein_soleil,0,1500,5.5,8.2,12,40,120
+C027,seigle,Poaceae,céréale,faible,septembre; octobre; novembre,sableux,plein_soleil,200,2000,5.0,7.0,0,28,225
+C028,chou_pomme,Brassicaceae,légume,élevé,mars; avril; mai; septembre; octobre; novembre,limoneux,plein_soleil,0,2000,6.0,7.5,4,24,95
+C029,brocoli,Brassicaceae,légume,élevé,mars; avril; mai; août; septembre,limono_argileux,plein_soleil,0,1800,6.0,7.0,5,24,75
+C030,chou_fleur,Brassicaceae,légume,élevé,mars; avril; mai; juin; juillet; août,limoneux,plein_soleil,0,1800,6.0,7.2,5,22,98
+C031,radis,Brassicaceae,légume,moyen,mars; avril; mai; juin; juillet; août; septembre; octobre; novembre,sableux; limoneux,plein_soleil; mi_ombre,0,2200,5.8,6.8,5,22,33
+C032,navet,Brassicaceae,légume,moyen,mars; avril; mai; août; septembre,limoneux,plein_soleil; mi_ombre,0,2000,6.0,7.0,4,22,53
+C033,chou_de_bruxelles,Brassicaceae,légume,élevé,mars; avril; mai,limono_argileux,plein_soleil,0,1600,6.0,7.5,-5,20,125
+C034,chou_kale,Brassicaceae,légume,élevé,mars; avril; mai; juin; juillet; août,limoneux,plein_soleil; mi_ombre,0,2200,6.0,7.5,-10,24,70
+C035,roquette,Brassicaceae,légume,moyen,mars; avril; mai; juin; juillet; août; septembre; octobre; novembre,limoneux,plein_soleil; mi_ombre,0,1800,6.0,7.0,5,22,35
+C036,moutarde_blanche,Brassicaceae,industriel,moyen,mars; avril; mai; septembre; octobre; novembre,sableux; limoneux; argileux,plein_soleil,0,1800,5.5,7.5,2,25,68
+C037,artichaut,Asteraceae,légume,élevé,août; septembre; octobre,limono_argileux,plein_soleil,100,800,6.5,8.0,5,28,210
+C038,laitue,Asteraceae,légume,élevé,septembre; octobre; novembre; décembre; janvier; février; mars; avril,sablo_limoneux,plein_soleil; mi_ombre,100,1200,6.0,7.0,4,24,68
+C039,chicoree_scarole,Asteraceae,légume,moyen,août; septembre; octobre,limono_argileux,plein_soleil,100,1000,6.0,7.5,2,25,88
+C040,cardon,Asteraceae,légume,moyen,septembre; octobre; novembre,argilo_limoneux,plein_soleil,200,900,6.5,8.0,4,30,175
+C041,camomille_matricaire,Asteraceae,industriel,moyen,octobre; novembre; décembre,sablo_limoneux,plein_soleil,300,1400,5.8,7.5,2,28,135
+C042,armoise_blanche,Asteraceae,industriel,faible,septembre; octobre; novembre; mars,sableux,plein_soleil,500,1600,7.0,8.5,-2,38,273
+C043,tomate,Solanaceae,légume,élevé,mars; avril; mai,limoneux,plein_soleil,0,1500,5.5,6.8,15,30,90
+C044,poivron,Solanaceae,légume,élevé,avril; mai,limoneux,plein_soleil,0,1200,6.0,7.0,18,32,88
+C045,piment,Solanaceae,légume,élevé,avril; mai,sablo_limoneux,plein_soleil,0,1500,5.5,7.0,20,35,100
+C046,aubergine,Solanaceae,légume,élevé,avril; mai,argilo_limoneux,plein_soleil,0,1000,5.5,6.8,20,35,98
+C047,physalis,Solanaceae,fruit,moyen,avril; mai,sablo_limoneux,plein_soleil; mi_ombre,500,2500,5.5,7.0,12,28,115
+C048,tabac,Solanaceae,industriel,moyen,avril; mai,sablo_limoneux,plein_soleil,0,1200,5.5,6.5,18,30,110
+C049,courgette,Cucurbitaceae,légume,élevé,février; mars; avril; mai,limono_argileux,plein_soleil,200,1200,6.0,7.5,15,32,60
+C050,melon,Cucurbitaceae,fruit,élevé,mars; avril; mai,sablo_limoneux; argilo_limoneux,plein_soleil,200,900,6.2,7.8,18,35,100
+C051,pasteque,Cucurbitaceae,fruit,élevé,mars; avril; mai,sablo_limoneux,plein_soleil,150,800,5.8,7.2,20,38,95
+C052,concombre,Cucurbitaceae,légume,élevé,février; mars; avril; mai; juin,limoneux,plein_soleil,200,1100,6.0,7.5,18,32,65
+C053,potiron_citrouille,Cucurbitaceae,légume,moyen,avril; mai,argilo_limoneux,plein_soleil,200,1400,6.0,7.5,15,32,120
+C054,courge_butternut,Cucurbitaceae,légume,moyen,avril; mai,limono_argileux,plein_soleil,200,1200,6.0,7.5,16,34,115
+C055,cornichon,Cucurbitaceae,légume,élevé,avril; mai,sablo_limoneux,plein_soleil,200,1100,6.0,7.2,18,30,58
+C056,calebasse,Cucurbitaceae,légume,élevé,mars; avril; mai,limono_argileux,plein_soleil,200,1000,6.0,7.5,18,35,105

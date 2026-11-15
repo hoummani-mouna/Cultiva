@@ -1,0 +1,108 @@
+{
+  "zone": "34.000_-5.000",
+  "precedente": "ble_dur",
+  "superviseur_grace": {
+    "actif": true,
+    "niveau": "critique",
+    "tendance_cm_an": -2.59,
+    "baisse_totale_cm": -12.3,
+    "significative": true,
+    "coef_poids_eau": 0.6,
+    "r05": "exclusion",
+    "message": "Stockage d'eau regional en forte baisse : la plateforme donne priorite maximale aux cultures sobres en eau et interdit l'enchainement de cultures gourmandes."
+  },
+  "propositions": [
+    {
+      "proposition": 1,
+      "score": 0.753,
+      "sol_nu_total_mois": 10,
+      "cultures": [
+        {
+          "culture": "colza",
+          "famille": "Brassicaceae",
+          "semis": "octobre",
+          "recolte": "avril",
+          "sol_nu_mois": 4,
+          "score": 0.77,
+          "detail": {
+            "eau": 0.54,
+            "sol": 1.0,
+            "climat": 1.0,
+            "rendement": 0.96
+          },
+          "alertes": [
+            "sol nu : 4 mois entre la recolte precedente et le semis (information)"
+          ]
+        },
+        {
+          "culture": "pois_fourrager",
+          "famille": "Fabaceae",
+          "semis": "octobre",
+          "recolte": "mars",
+          "sol_nu_mois": 6,
+          "score": 0.77,
+          "detail": {
+            "eau": 0.6,
+            "sol": 0.98,
+            "climat": 1.0,
+            "rendement": null
+          },
+          "alertes": [
+            "sol nu : 6 mois entre la recolte precedente et le semis (information)",
+            "donnee non disponible : rendement (R12)"
+          ]
+        }
+      ],
+      "regles": [
+        "R06 (+0.10) au moins une culture a besoin en eau faible ou moyen"
+      ],
+      "statut": "favorable sous réserve - à valider (R13)"
+    },
+    {
+      "proposition": 2,
+      "score": 0.738,
+      "sol_nu_total_mois": 14,
+      "cultures": [
+        {
+          "culture": "petit_pois",
+          "famille": "Fabaceae",
+          "semis": "octobre",
+          "recolte": "janvier",
+          "sol_nu_mois": 4,
+          "score": 0.76,
+          "detail": {
+            "eau": 0.55,
+            "sol": 0.9,
+            "climat": 1.0,
+            "rendement": 0.95
+          },
+          "alertes": [
+            "sol nu : 4 mois entre la recolte precedente et le semis (information)"
+          ]
+        },
+        {
+          "culture": "orge",
+          "famille": "Poaceae",
+          "semis": "novembre",
+          "recolte": "avril",
+          "sol_nu_mois": 10,
+          "score": 0.71,
+          "detail": {
+            "eau": 0.68,
+            "sol": 1.0,
+            "climat": 1.0,
+            "rendement": 0.2
+          },
+          "alertes": [
+            "sol nu : 10 mois entre la recolte precedente et le semis (information)"
+          ]
+        }
+      ],
+      "regles": [
+        "R03 (+0.20) legumineuse (petit_pois) avant cereale (orge)",
+        "R06 (+0.10) au moins une culture a besoin en eau faible ou moyen"
+      ],
+      "statut": "favorable sous réserve - à valider (R13)"
+    }
+  ]
+}

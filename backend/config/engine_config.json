@@ -1,0 +1,37 @@
+{
+  "_commentaire": "Poids du prototype (estimations a ajuster). Score culture = moyenne ponderee des axes disponibles ; score rotation = poids_cultures * moyenne cultures + poids_regles * score des regles.",
+  "poids_axes_culture": {
+    "eau": 0.3,
+    "sol": 0.25,
+    "climat": 0.15,
+    "rendement": 0.2
+  },
+  "poids_cultures": 0.9,
+  "poids_regles": 0.1,
+  "score_regles_neutre": 0.5,
+  "cycle_max_jours": 365,
+  "nb_propositions": 2,
+  "fragilite_zone": {
+    "actif": true,
+    "coef_poids_eau": 0.5,
+    "_commentaire": "MODIS : poids eau de la zone = poids eau x (1 + coef x fragilite_zone). Mettre actif=false pour desactiver."
+  },
+  "superviseur_grace": {
+    "_commentaire": "GRACE = couche de supervision (changement climatique). Le niveau de la zone (normal/vigilance/alerte/critique) augmente le poids de l'eau et peut durcir R05 (penalite -> exclusion). actif=false pour desactiver. ressource_limitee_a_partir_de : a partir de ce niveau GRACE, la ressource en eau de la zone est consideree limitee (active R05) meme si l'aridite P/ET0 est correcte.",
+    "actif": true,
+    "coef_poids_eau": {
+      "normal": 0.0,
+      "vigilance": 0.2,
+      "alerte": 0.4,
+      "critique": 0.6
+    },
+    "r05_exclusion_a_partir_de": "alerte",
+    "messages": {
+      "normal": "Stockage d'eau regional stable : pas de contrainte supplementaire.",
+      "vigilance": "Stockage d'eau regional en baisse moderee : privilegiez des cultures economes en eau.",
+      "alerte": "Stockage d'eau regional en baisse nette : la plateforme favorise les cultures sobres en eau et evite l'enchainement de cultures gourmandes.",
+      "critique": "Stockage d'eau regional en forte baisse : la plateforme donne priorite maximale aux cultures sobres en eau et interdit l'enchainement de cultures gourmandes."
+    },
+    "ressource_limitee_a_partir_de": "alerte"
+  }
+}

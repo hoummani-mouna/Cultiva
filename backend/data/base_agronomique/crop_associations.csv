@@ -1,0 +1,3 @@
+﻿predecessor_type,predecessor,successor_type,successor,relation,source,validation_status
+family,Fabaceae,family,Poaceae,favorable,"Regle R03 (legumineuse -> cereale, ex. feve -> ble)",documente
+crop,jachere_paturee,crop,Medicago,defavorable,Regle R11 (Medicago apres jachere paturee),documente
