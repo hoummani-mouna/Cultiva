@@ -52,7 +52,7 @@ mode** exposes the whole methodology.
 
 ### The 6 steps
 
-#### Step 1 — My farm: locate the plot (*Mon exploitation*)
+#### Step 1 — My farm: locate the plot
 
 Locate the plot using GPS, a city name or the map.
 
@@ -68,7 +68,7 @@ Choose the soil, the last crop harvested on the plot and the farmer's priority.
   <a href="docs/images/03-sol-culture-priorite.png"><img src="docs/images/03-sol-culture-priorite.png" alt="Soil, last crop and priority" width="100%"></a>
 </p>
 
-#### Step 2 — State of my land (*État de ma terre*)
+#### Step 2 — State of my land
 
 Water, rain, vegetation, soil and drought, read from the NASA data of the zone.
 
@@ -76,7 +76,7 @@ Water, rain, vegetation, soil and drought, read from the NASA data of the zone.
   <a href="docs/images/04-etat-de-la-terre.png"><img src="docs/images/04-etat-de-la-terre.png" alt="Step 2: state of the land" width="100%"></a>
 </p>
 
-#### Step 3 — My rotations (*Mes rotations*)
+#### Step 3 — My rotations
 
 The current rotation and 2 proposed rotations.
 
@@ -84,7 +84,7 @@ The current rotation and 2 proposed rotations.
   <a href="docs/images/05-rotations-proposees.png"><img src="docs/images/05-rotations-proposees.png" alt="Step 3: proposed rotations" width="100%"></a>
 </p>
 
-#### Step 4 — Why this rotation (*Pourquoi cette rotation*)
+#### Step 4 — Why this rotation
 
 An explanation of each proposal: scores and rules applied.
 
@@ -92,7 +92,7 @@ An explanation of each proposal: scores and rules applied.
   <a href="docs/images/06-pourquoi-cette-rotation.png"><img src="docs/images/06-pourquoi-cette-rotation.png" alt="Step 4: why this rotation" width="100%"></a>
 </p>
 
-#### Step 5 — My calendar (*Mon calendrier*)
+#### Step 5 — My calendar
 
 Bare soil, sowing, growth and harvest over the year.
 
@@ -100,7 +100,7 @@ Bare soil, sowing, growth and harvest over the year.
   <a href="docs/images/07-calendrier-agricole.png"><img src="docs/images/07-calendrier-agricole.png" alt="Step 5: farming calendar" width="100%"></a>
 </p>
 
-#### Step 6 — Community (*Communauté*)
+#### Step 6 — Community
 
 Sample testimonials (prototype).
 
