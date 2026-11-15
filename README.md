@@ -48,7 +48,7 @@ The farmer's journey takes 6 steps, from locating the plot to the sowing calenda
 mode** exposes the whole methodology.
 
 > The interface is available in French and Arabic; the screenshots below show the French version
-> (the original French screen names are given in italics). Click any screenshot to open it at full size.
+> Click any screenshot to open it at full size.
 
 ### The 6 steps
 
